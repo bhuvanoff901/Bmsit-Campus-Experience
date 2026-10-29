@@ -1,0 +1,20 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+coverage/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+
+# Local tooling and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+npm-debug.log*
+
+# Campus photographs from the original authoring workspace were sourced from
+# the institution's website; do not redistribute them without permission.
+/public/images/campus-*.jpg
